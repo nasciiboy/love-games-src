@@ -1,0 +1,34 @@
+baseURL            = "http://love-games.github.io/"
+languageCode       = "en-us"
+title              = "Love Games"
+theme              = "love-theme"
+
+buildDrafts        = true
+
+relativeURLs       = true
+rssLimit           = 15
+enableRobotsTXT    = false
+metaDataFormat     = "toml"
+
+paginate           = 10
+paginatePath       = "page"
+
+pygmentsUseClasses = false
+pygmentsStyle      = "monokai"
+pygmentsCodeFencesGuessSyntax = false
+
+[taxonomies]
+  category = "categories"
+  tag      = "tags"
+
+[blackfriday]
+  angledQuotes = true
+  fractions    = false
+
+[params]
+  AuthorName   = "nasciiboy"
+  Email        = "nasciiboy@gmail.com"
+  Keywords     = [ "love2d", "game", "foss", "free software", "programming" ]
+  Description  = "floss games made with love2d"
+  Repo         = "https://github.com/nasciiboy/love-games-src"
+  licence      = "AGPLv3"

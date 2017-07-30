@@ -1,0 +1,14 @@
+# theme.toml template for a Hugo theme
+
+name = "Love Theme"
+license = "MIT"
+licenselink = "https://github.com/nasciiboy/love-theme/blob/master/LICENSE.md"
+description = "a specific theme for love-games"
+homepage = "http://example.com/"
+tags = ["love2d", "theme"]
+features = ["no-css", "no-js", "no-analitics"]
+min_version = "0.25.1"
+
+[author]
+  name = ""
+  homepage = ""
