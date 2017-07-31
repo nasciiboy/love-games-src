@@ -27,11 +27,14 @@
     </div>
 
     <div class="clear" class="center">
+        <p><b>Love Version: </b>{{ if isset .Params "lover" }}{{- .Params.lover -}}{{ else }}unknow{{ end }}</p>
+        <p><b>Licence:<b>{{ range .Params.licence }} {{ . }}{{ end }}</p>
+
         {{ with .PrevInSection }}
-         ◀━ <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+        <a class="previous" href="{{.Permalink}}">◀━ {{.Title}}</a>
         {{ end }}
         {{ with .NextInSection }}
-          <a class="next" href="{{.Permalink}}"> {{.Title}}</a> ━▶
+          <a class="next" href="{{.Permalink}}"> {{.Title}} ━▶</a>
         {{ end }}
     </div>
 

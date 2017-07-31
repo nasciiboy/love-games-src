@@ -133,6 +133,8 @@ header.key { color: black; }
 aside div ul { padding-left: 0em; margin: 0em; }
 
 html body footer {
+    width: 70%;
+    background-color: #454545;
     font-size: 0.7em;
     clear: both;
 }
@@ -142,6 +144,9 @@ nav.p-paging { clear: both; padding-top: 2em; text-align: center; }
 .footer-title { clear: both; }
 
 .footer-title a { list-style: none; text-decoration: none; color: red; }
+
+.previous { float: left; }
+.next { float: right; }
 
 h1 { color: var( --FGCtitle  ); font-size:   3em; font-family: title   ; line-height: 1.1em; }
 h2 { color: var( --FGCstart1 ); font-size: 1.6em; font-family: heatline; line-height: 1.1em; }

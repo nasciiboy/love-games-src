@@ -14,4 +14,4 @@ sobre **love2d**
 
 El codigo fuente de este material se encuentra bajo la licencia AGPL v3, alojado
 en github en la direccion https://github.com/nasciiboy/love-games-src/ y como
-pagina web en https://love-games.github.io
+pagina web en https://nasciiboy.github.io/love-games/

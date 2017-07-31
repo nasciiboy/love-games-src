@@ -20,6 +20,8 @@ pygmentsCodeFencesGuessSyntax = false
 [taxonomies]
   category = "categories"
   tag      = "tags"
+  licence  = "licence"
+  lover    = "lover"
 
 [blackfriday]
   angledQuotes = true
