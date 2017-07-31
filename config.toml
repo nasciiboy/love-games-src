@@ -1,4 +1,4 @@
-baseURL            = "http://love-games.github.io/"
+baseURL            = "https://nasciiboy.github.io/love-games"
 languageCode       = "en-us"
 title              = "Love Games"
 theme              = "love-theme"

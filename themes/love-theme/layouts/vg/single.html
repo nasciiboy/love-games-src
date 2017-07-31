@@ -5,7 +5,7 @@
   <h1>{{ .Title }}</h1>
     {{ if isset .Params "img" -}}
     <div class="center" >
-    <img src="{{ printf "%s%s" $.Site.BaseURL .Params.img }}" />
+    <img src="{{ printf "%s/%s" $.Site.BaseURL .Params.img }}" />
     </div>
     {{- end }}
 
